@@ -31,11 +31,14 @@ object App {
     println(1.feb of 2005)
     println(9.jan)
     println(9.dec)
-    println(32 nov)
+    println(30 nov)
   }
 
   def currencyWithDateTest(): Unit = {
     println(31.jan)
+    println(10.eur to rub at (10.oct of 2007))
+    println(10.eur to rub at (10.oct of 2007) to usd latest)
+    println(123.rub.to(eur).latest)
   }
 
   def main (args: Array[String]): Unit = {
