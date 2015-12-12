@@ -3,8 +3,8 @@ package hw5
 import hw5.distance._
 import hw5.currency._
 import hw5.date._
-import hw5.date.Check._
-//import hw5.date.NoCheck._
+//import hw5.date.Check._
+import hw5.date.NoCheck._
 
 /**
  * @author pavel
